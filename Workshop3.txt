@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio WEB para Worksop03</title>
+</head>
+<article>
+<header>
+    <h1 style="color: blue;">Se usa como encabezado principal </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam esse, aliquid ipsam ducimus soluta vel atque repudiandae blanditiis! Iure animi eaque sequi voluptates amet provident sapiente nemo, eius blanditiis?</p>
+</header>
+<section>
+    <h1 style="color: #00449c;">Esto se usa para encabezados secundario </h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Officiis repellendus qui facere temporibus nemo et consequuntur
+          error corporis distinctio eligendi voluptates, cupiditate enim 
+          assumenda numquam nisi adipisci quas hic illo!</p>
+          <a  href="https://www.youtube.com/"> <strong> es un enlace a youtube </strong> </a>
+          <p> esto es como el desarrollo del tema</p>
+</section>
+<footer>
+    <p> prueba<strong> </time>datetime=2022-09-27> september 27</strong>  </time> reservados al autor Brian Laguna</p>
+    <strong></strong>
+</footer>
+</article>
+</html>
