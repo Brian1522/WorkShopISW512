@@ -8,21 +8,24 @@
 </head>
 <article>
 <header>
-    <h1 style="color: blue;">Se usa como encabezado principal </h1>
+    <h1 style="color: blue;">APRENDE HTML5 DESDE CERO </h1>
+    <p> <strong>Acá pordras aprender todo sobre HTML5</strong></p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam esse, aliquid ipsam ducimus soluta vel atque repudiandae blanditiis! Iure animi eaque sequi voluptates amet provident sapiente nemo, eius blanditiis?</p>
 </header>
 <section>
     <h1 style="color: #00449c;">Esto se usa para encabezados secundario </h1>
+    <P>El seccion es para separar secciones y esta ya puede tener sus titulos y subtitulos aparte</P>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
          Officiis repellendus qui facere temporibus nemo et consequuntur
           error corporis distinctio eligendi voluptates, cupiditate enim 
           assumenda numquam nisi adipisci quas hic illo!</p>
-          <a  href="https://www.youtube.com/"> <strong> es un enlace a youtube </strong> </a>
-          <p> esto es como el desarrollo del tema</p>
+          <a  href="https://www.youtube.com/watch?v=kN1XP-Bef7w"> <strong> APRENDE HTML5 DESDE CERO </strong> </a>
+          <p><strong>Es el desarrollo del tema </strong></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim, qui quibusdam aliquid magni voluptatibus aperiam veniam quidem possimus sunt minima, vel perspiciatis odio porro eveniet accusamus ex saepe cumque!</p>
 </section>
 <footer>
-    <p> prueba<strong> </time>datetime=2022-09-27> september 27</strong>  </time> reservados al autor Brian Laguna</p>
-    <strong><p> esto es como el desarrollo del tema</p></strong>
+    <p>© Copyright<strong> </time>datetime=2022-09-27 Septiembre 27</strong>  </time> Dderechos reservados al autor Brian Laguna,UTN.</p>
+    
 </footer>
 </article>
 </html>
