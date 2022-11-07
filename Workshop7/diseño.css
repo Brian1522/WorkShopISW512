@@ -1,0 +1,135 @@
+.body {
+    justify-content: center;
+    display: flex;
+}
+.header {
+    background: yellow;
+    text-align: center;
+    width: 100%;
+}
+
+.header>h1 {
+    margin-right: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+p {
+    font-size: 100%;
+}
+
+.box1 {
+    background: #ff5100ee;
+    border-radius: 3%;
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+    margin-right: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+.box2{
+    display: none;
+}
+.box1>ul {
+    list-style: none;
+}
+
+.box3{
+    color: white;
+    background: blue;
+    border-radius: 3%;
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+    margin-right: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.box4_1 {
+    color: white;
+    background: blue;
+    border-radius: 3%;
+    margin-right: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 6%;
+
+}
+
+.box4_2{
+    color: white;
+    background: blue;
+    border-radius: 3%;
+    margin-right: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 8%;
+
+}
+
+.box4{
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+
+}
+
+.footer {
+    margin-right: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: rgb(185, 93, 108);
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .body {
+        display: inline-block;
+    }
+}
+@media (max-width: 600px) {
+    .box1 {
+        display: none;
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .box2 {
+        align-content: flex-start;
+        background: #ff5100ee;
+        border-radius: 3%;
+        display: inline-block;
+        margin-right: 0.5%;
+        margin-top: 1%;
+        width: 100%;
+        height: 10%;
+        margin-bottom: 2%;
+        padding: 3%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .box3 {
+        background: blue;
+        border-radius: 3%;
+        height: 30%;
+        margin: 2%;
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .box4 {
+        display: inline-block;
+        width: 100%;
+        height: 30%;
+
+    }
+}
