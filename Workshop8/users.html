@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Users management</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/template.css" >
+	
+</head>
+<body>
+
+	<h1>Registro de Usuarios</h1>
+
+	<div class="form-contact-info-1">
+		<div class="error_msg" id="error_msg"></div>
+		<form id="formAddUser" name="formAddUser">
+			<input type="text" name="name" value="" placeholder="Escriba su nombre" class="required"  id="name" />
+			<input type="text" name="username" value="" placeholder="Escriba su Apellido" class="required"  id="username" />
+			<input type="text" name="phnumber" value="" placeholder="Escriba su numero de telefono" class="required"  id="phnumber" />
+			<input type="password" name="password" id="password" />
+		</form>
+		<input type="button" value="Guardar" id="addUserButton"></input>
+	 	 <button class="boton-limpiar">Limpiar todo</button>
+	</div>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Numero de telefono</th>
+			</tr>
+		</thead>
+		<tbody id="users_table">
+		</tbody>
+	</table>
+	<script src="js/application.js" type="text/javascript"></script>
+	<script src="js/user.js" type="text/javascript"></script>
+</body>
+</html>
